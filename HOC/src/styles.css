@@ -1,0 +1,35 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  height: 80vh;
+  align-items: center;
+}
+
+.hover {
+  width: 10em;
+  height: 2em;
+  background-color: red;
+  cursor: pointer;
+  cursor: pointer;
+  padding: 2em;
+}
+
+.clickCounter {
+  width: 10em;
+  height: 2em;
+  background-color: black;
+  cursor: pointer;
+  padding: 2em;
+}
+
+.clickCounter div,
+.hover div {
+  background-color: white;
+  width: 1em;
+  min-height: 1em;
+  margin: auto;
+  font-size: 2em;
+  padding: 0 0.5em;
+}
